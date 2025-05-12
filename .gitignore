@@ -1,0 +1,21 @@
+# 忽略 build / cache / 依賴
+.next/
+node_modules/
+dist/
+
+# 忽略環境變數與機密資訊
+.env
+.env.local
+.env.*.local
+next-env.d.ts
+
+# 忽略 lock file（若使用 yarn 改為 yarn.lock）
+package-lock.json
+
+# 編譯產物
+*.log
+*.tsbuildinfo
+
+# Mac / VSCode / 系統垃圾
+.DS_Store
+.vscode/
